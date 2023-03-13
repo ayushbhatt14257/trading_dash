@@ -1,0 +1,55 @@
+/* ======================================================= HOME MIDDLE HEADING STYLING  =========================================================== */
+
+.home_middle {
+    margin-top: 15%;
+    /* margin-left: 10%; */
+}
+
+.home_middle p {
+    color: rgba(0, 0, 0, 0.89);
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    font-weight: 600;
+}
+
+
+/* ========================================================= HOME BOTTOM HEADING STYLING ============================================================ */
+
+.home_bottom {
+    margin-top: 3%;
+    /* margin-left: 10%; */
+}
+
+.bottom_lineOne {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.bottom_lineOne button {
+    width: 253%;
+    border-radius: 50px;
+    height: 50px;
+    font-size: 18px;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+.bottom_lineOne button:hover {
+    background: none;
+    border: 2px solid black;
+    transition: all 400ms ease;
+}
+
+.home_bottom h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}

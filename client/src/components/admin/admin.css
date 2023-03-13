@@ -1,0 +1,111 @@
+button {
+    border: none;
+}
+
+.heading {
+    display: flex;
+    gap: 68%
+}
+
+.heading button {
+    width: 70%;
+    height: 5vh;
+    font-size: 10px;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 0, 0.565);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.heading button:hover {
+    background-color: rgba(0, 128, 0, 0.529);
+    transition: all 400ms ease;
+}
+
+.admin_stock_container {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.admin_stock_container p {
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+    font-weight: 800;
+    margin-left: 1rem;
+}
+
+.admin_stock_cart {
+    background-color: rgba(255, 255, 255, 0.579);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 40px;
+    margin-bottom: 1rem;
+}
+
+.admin_stock_cart .admin_left_img {
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 20px;
+    align-items: center;
+}
+
+.admin_stock_cart .admin_left_img img {
+    width: 12%;
+}
+
+.admin_stock_name h2 {
+    font-size: 1rem;
+}
+
+.admin_stock_price {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.admin_stock_price h3 {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.admin_stock_price h4 {
+    margin: 0;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+}
+
+.admin_stock_cart .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btns .edit {
+    background-color: rgba(0, 128, 0, 0.529);
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btns .edit:hover {
+    background-color: white;
+    transition: all 400ms ease;
+}
+
+.btns .delete {
+    background-color: rgba(255, 0, 0, 0.521);
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btns .delete:hover {
+    background-color: white;
+    transition: all 400ms ease;
+}
